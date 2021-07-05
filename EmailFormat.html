@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmailFormat.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function date()
+        {
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        }
+        </script>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing: border-box;
+        }
+        .icon
+        {
+            color:dodgerblue;
+            margin-right: 10px;
+        }   
+        .rBtn
+        {
+            background-color: white;
+        }    
+       .rBtn:hover
+       {
+           background-color: whitesmoke;
+       }
+       .ricon
+       {
+           float: right;
+           margin-left: 20px;
+           color:#aaaaaa;
+       }
+       .ricon:hover
+       {
+           color: dodgerblue;
+           cursor: pointer;
+       }
+       .ic
+       {
+           float: right;
+           margin-left: 20px;
+           color: #aaaaaa;
+           margin-top: 0px;
+       }
+       .ic:hover
+       {
+           color: dodgerblue;
+       }
+       .use
+       {
+           float:left;
+           color: #aaaaaa;
+           margin-right: 10px;
+       }
+       .use:hover
+       {
+           color:dodgerblue;
+       }
+       .icd
+       {
+           margin-left: 5px;
+       }
+       .icd:hover
+       {
+           color: dodgerblue;
+       }
+</style>
+</head>
+<body style=" font-family: 'Times New Roman', Times, serif;
+background-color:whitesmoke;">
+    <div class="main" style="width:100%;
+    height:1000px;
+    ">
+        <div class="header" style=" width:98%;
+        height:150px;
+        padding:10px; background-color: white; margin:auto;">
+        <p style="color:dodgerblue;font-size: 20px;">Welcome to emailformat!</p>
+        <a target="popup" onclick="window.open('file:///C:/Users/Dell/Desktop/Task3/EmailFormat.html#','name','width=600,height=400')"><i class="fa fa-external-link fa-lg ricon" aria-hidden="true"></i></a>
+        <a onclick="window.print();"><i class="fa fa-print fa-lg ricon" aria-hidden="true"></i></a>
+        <br>
+        <p style="color:black;"><i class="fa fa-user-circle fa-2x use" aria-hidden="true"></i></i>emailformat@email.jvtinfo.com <a href="#" style="color:dodgerblue">via</a> amazonses.com </p>
+        <p style="color:#aaaaaa;">to me<i class="fa fa-caret-down icd" aria-hidden="true"></i></p>
+        <a href="#"><i class="fa fa-ellipsis-v fa-lg ic" aria-hidden="true"></i> </a>
+        <a href="#"><i class="fa fa-share fa-lg ic" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-star-o fa-lg ic" aria-hidden="true"></i></a>
+       
+    </div>
+        <div class="dbody" style="width:98%;
+        height:800px;
+        margin: auto;
+        background-color: white;
+        text-align: left;
+        padding:50px;">
+            <p style="text-align: center; font-size: 30px; font-weight: bold; color: dodgerblue; font-family: cursive; display: block; padding-bottom: 10px;">Welcome to EmailFormat !</p>
+            <p style="color:gray">Dear Ankit Sharma,<br>
+                We're so happy to have you here.  We founded pngtree because we wanted to create a trustworthy and inspiring place for all the designers to find their flashlight and be creative. We hope you will enjoy your design journey and we will always be your loyalty support.
+               <br> Your user ID number is 17622903.
+            </p>
+            <p style="text-align:center; padding-top: 50px;"><a href="#" style="text-decoration: none; background-color: dodgerblue; padding: 20px 10px 20px 10px; font-size: 20px; color:white; border-radius: 5px;">Join Our Community</a></p>
+            <p style="color:gray; padding-top: 50px;"><i>Copyright © *2018* *EmailFormat*, All rights reserved.</i><br>
+
+                Our mailing address is:<br>
+                3595 Alpha 1 Greater Noida, India<br>
+                
+                If you do not wish to receive such emails in the future, you may <a href="#" style="color:dodgerblue">unsubscribe</a> your preferences.
+
+            </p>
+            <p onmouseover="date()" style="color:gray; margin-top: 10px;"><i>Cursor over here to see date and time :</i> <span id="datetime"></span></p>
+            <a class="rBtn" href="#" style="text-decoration: none; color:gray; padding:8px 40px 8px 40px; border:1px solid #aaaaaa; display: inline-block; margin-top: 50px; border-radius: 2px;"><i class="fa fa-reply icon" aria-hidden="true"></i>Reply</a>
+            <a class="rBtn" href="#" style="text-decoration: none; color:gray; padding:8px 35px 8px 35px; border:1px solid #aaaaaa; display: inline-block; border-radius: 2px;"><i class="fa fa-arrow-right icon" aria-hidden="true"></i>Forward</a>
+        </div>
+     
+    </div>
+</body>
+</html>
